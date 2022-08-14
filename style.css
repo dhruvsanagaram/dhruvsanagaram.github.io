@@ -91,10 +91,10 @@ p{
 }
 
 .headshot{
-    border:#444;
+    border: 5px solid #444;
     width:15rem;
 }
-.cover{
+.cover{ 
     width: 20rem;
 }
 
@@ -115,11 +115,23 @@ p{
     margin:20px;
 }
 
+.photonics{
+    padding: 20px;
+    margin:5px;
+}
+
+.algebra-dash{
+    padding: 10px;
+    margin: 15px;
+}
+
 .box:hover {
+    /*
     -webkit-transform: rotate(-7deg);
     -moz-transform:rotate(-7deg);
     -o-transform:rotate(-7deg);
     transform:rotate(-7deg);
+    */
 }
 
 footer{
