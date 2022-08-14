@@ -125,6 +125,11 @@ p{
     margin: 15px;
 }
 
+.ece-hax{
+    padding: 10px;
+    margin:15px;
+}
+
 .box:hover {
     /*
     -webkit-transform: rotate(-7deg);
