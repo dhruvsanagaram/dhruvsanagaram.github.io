@@ -55,7 +55,7 @@ a{
 .cover-wrapper{
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(475px, 1fr));
 }
 
 .text-box{
@@ -83,12 +83,17 @@ p{
 }
 
 .container{
+    margin:5rem;
     display: flex;
     align-items:flex-end;
     justify-content: center;
     height: 50vh;
 }
 
+.headshot{
+    border:#444;
+    width:15rem;
+}
 .cover{
     width: 20rem;
 }
