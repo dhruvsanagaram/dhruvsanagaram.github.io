@@ -52,6 +52,30 @@ a{
 
 
 /*COVER*/
+.cover-wrapper{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+
+.text-box{
+    border:#f5f5f6;
+    background-color: #444;
+    padding:30px;
+    margin:30px;
+}
+
+.no-hover{
+    pointer-events: none;
+}
+
+p{
+    color: white;
+    width: 100%;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .sticky{
     position: fixed;
     top:0;
@@ -60,7 +84,7 @@ a{
 
 .container{
     display: flex;
-    align-items: center;
+    align-items:flex-end;
     justify-content: center;
     height: 50vh;
 }
