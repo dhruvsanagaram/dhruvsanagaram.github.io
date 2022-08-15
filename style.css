@@ -130,6 +130,11 @@ p{
     margin:20px;
 }
 
+.acm{
+    padding: 20px;
+    margin:10px;
+}
+
 .box:hover {
     /*
     -webkit-transform: rotate(-7deg);
