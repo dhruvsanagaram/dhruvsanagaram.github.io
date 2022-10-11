@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dhruvsanagaram/dhruvsanagaram.github.io/issues"
   },
-  "homepage": "https://github.com/dhruvsanagaram/dhruvsanagaram.github.io#readme"
+  "homepage": "https://github.com/dhruvsanagaram/dhruvsanagaram.github.io#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "lodash": "^4.17.21"
+  }
 }
